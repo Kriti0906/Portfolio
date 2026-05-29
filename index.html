@@ -7,21 +7,16 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Background Blur -->
-    <div class="blur blur1"></div>
-    <div class="blur blur2"></div>
-
     <!-- Navbar -->
     <nav class="navbar">
+
         <div class="container nav-container">
 
             <h2 class="logo">Kriti Tyagi</h2>
@@ -29,19 +24,27 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
         </div>
+
     </nav>
+
 
     <!-- Hero -->
     <section class="hero" id="home">
 
+        <!-- Floating circles for background -->
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+
         <div class="container hero-wrapper">
 
-            <div class="hero-left">
+            <div class="hero-center">
 
                 <p class="hero-tag">WELCOME TO MY PORTFOLIO</p>
 
@@ -51,31 +54,38 @@
 
                 <p class="hero-text typing-text"></p>
 
+                <!-- Badges row -->
+                <div class="hero-badges">
+                    <span class="badge"><i class="fas fa-graduation-cap"></i> CSE — 3rd Year</span>
+                    <span class="badge"><i class="fas fa-map-marker-alt"></i> Dehradun, India</span>
+                    <span class="badge"><i class="fas fa-star"></i> 8.64 CGPA</span>
+                </div>
+
                 <div class="hero-buttons">
                     <a href="#projects" class="btn">View Projects</a>
                     <a href="#contact" class="btn-outline">Contact Me</a>
                 </div>
 
                 <div class="social-icons">
-                    <a href="https://github.com/Kriti0906" target="_blank">
+
+                    <a href="https://github.com/Kriti0906" target="_blank" title="GitHub">
                         <i class="fab fa-github"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/kriti-tyagi-bb5834320/">
+                    <a href="https://www.linkedin.com/in/kriti-tyagi-bb5834320/" target="_blank" title="LinkedIn">
                         <i class="fab fa-linkedin"></i>
                     </a>
 
-                    <a href="https://leetcode.com/u/kriti__tyagi/">
+                    <a href="https://leetcode.com/u/kriti__tyagi/" target="_blank" title="LeetCode">
                         <i class="fas fa-code"></i>
                     </a>
+
                 </div>
 
-            </div>
-
-            <div class="hero-right">
-
-                <div class="image-circle">
-                    <img src="your_image.jpeg" alt="Profile">
+                <!-- Scroll hint -->
+                <div class="scroll-hint">
+                    <span>Scroll to explore</span>
+                    <i class="fas fa-chevron-down bounce"></i>
                 </div>
 
             </div>
@@ -83,6 +93,7 @@
         </div>
 
     </section>
+
 
     <!-- About -->
     <section class="about" id="about">
@@ -95,20 +106,22 @@
             <div class="about-card reveal">
 
                 <p>
-                     I'm a 3rd Year Computer Science Engineering student at Graphic Era University
-                    with a passion for web development, data structures & algorithms, and modern
-                    software development. I am a quick learner with a growth mindset, always eager
-                    to explore new technologies, solve challenging problems, and continuously improve my skills.
-                
+                    I'm a 4th Year Computer Science Engineering student at
+                    Graphic Era University with a passion for data analysis and web development,
+                    data structures & algorithms, and modern software development.
+                    I am a quick learner with a growth mindset, always eager
+                    to explore new technologies, solve challenging problems,
+                    and continuously improve my skills.
                 </p>
 
             </div>
+
 
             <!-- Stats -->
             <div class="stats">
 
                 <div class="stat reveal">
-                    <h3>3</h3>
+                    <h3>4</h3>
                     <p>Projects</p>
                 </div>
 
@@ -124,19 +137,24 @@
 
             </div>
 
+
             <!-- Skills -->
             <div class="skills reveal">
 
                 <h3>Skills</h3>
 
                 <div class="skill-tags">
+
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>JavaScript</span>
                     <span>Python</span>
                     <span>C++</span>
+                    <span>REST APIs</span>
+                    <span>Responsive Design</span>
                     <span>GitHub</span>
                     <span>DSA</span>
+
                 </div>
 
             </div>
@@ -144,6 +162,66 @@
         </div>
 
     </section>
+
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+
+        <div class="container">
+
+            <p class="section-subtitle">EXPERIENCE</p>
+            <h2>Work & Internships</h2>
+
+            <div class="timeline reveal">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+
+                        <div class="timeline-header">
+
+                            <div>
+                                <h3>Virtual Internship</h3>
+                                <p class="timeline-company">
+                                    <i class="fas fa-building"></i>
+                                    ServiceNow
+                                </p>
+                            </div>
+
+                            <span class="timeline-badge">2024</span>
+
+                        </div>
+
+                        <p class="timeline-desc">
+                            Completed a virtual internship with ServiceNow, gaining
+                            hands-on experience with enterprise workflow automation
+                            and the Now Platform. Learned platform administration,
+                            Automated Test Framework (ATF) testing, and core AI
+                            concepts integrated within ServiceNow products.
+                        </p>
+
+                        <div class="timeline-tags">
+                            <span>ServiceNow</span>
+                            <span>Workflow Automation</span>
+                            <span>ATF Testing</span>
+                            <span>Platform Admin</span>
+                            <span>AI Concepts</span>
+                        </div>
+
+                        <img style="align-items: center;" src="certificate.jpg" alt="ServiceNow Certificate" class="timeline-image">
+                
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
 
     <!-- Projects -->
     <section class="projects" id="projects">
@@ -159,64 +237,93 @@
                 <div class="project-card reveal">
 
                     <div class="project-image">
-                        <img src="project1.jpg" alt="">
+                        <img src="project1.jpg" alt="Face Detection">
                     </div>
 
-                    <h3>Face Detection using MTCNN</h3>
+                    <div class="project-content">
 
-                    <p>
-                        Built a face detection system using Python, MTCNN, and OpenCV.
-                    </p>
+                        <h3>Face Detection using MTCNN</h3>
 
-                    <a href="https://github.com/Kriti0906/face-detection-mtcnn" class="project-link">
-                        View Project →
-                    </a>
+                        <p>
+                            Built a face detection system using Python,
+                            MTCNN, and OpenCV for detecting faces in images.
+                        </p>
+
+                        <a href="https://github.com/Kriti0906/face-detection-mtcnn"
+                        class="project-link"
+                        target="_blank">
+                            View Project →
+                        </a>
+
+                    </div>
 
                 </div>
+
 
                 <!-- Project 2 -->
                 <div class="project-card reveal">
 
                     <div class="project-image">
-                        <img src="project2.jpg" alt="">
+                        <img src="weather-app.png" alt="Weather App">
                     </div>
 
-                    <h3>Calculator Web App</h3>
+                    <div class="project-content">
 
-                    <p>
-                        Responsive calculator built using HTML, CSS, and JavaScript.
-                    </p>
+                        <h3>Weather App</h3>
 
-                    <a href="https://github.com/Kriti0906/Simple-Calculator/tree/main" class="project-link">
-                        View Project →
-                    </a>
+                        <p>
+                            Developed a responsive weather application using
+                            HTML, CSS, and JavaScript with WeatherAPI integration.
+                            Features include dynamic backgrounds,
+                            real-time weather updates.
+                        </p>
+
+                        <a href="https://github.com/Kriti0906"
+                        class="project-link"
+                        target="_blank">
+                            View Project →
+                        </a>
+
+                    </div>
 
                 </div>
 
-                <!-- Certificate -->
+
+                <!-- Project 3 -->
                 <div class="project-card reveal">
 
                     <div class="project-image">
-                        <img src="certificate.jpg" alt="">
+                        <img src="project2.jpg" alt="Salary Prediction System">
                     </div>
 
-                    <h3>ServiceNow Internship</h3>
+                    <div class="project-content">
 
-                    <p>
-                        Learned workflows, ATF, administration, and AI concepts.
-                    </p>
+                        <h3>Salary Prediction System</h3>
 
-                    <a href="https://github.com/Kriti0906/Portfolio/blob/main/certificate.jpg" class="project-link">
-                        View Certificate →
-                    </a>
+                        <p>
+                            A machine learning application that predicts employee salaries based on
+                            Years of Experience and Job Rate using Linear Regression.
+                            The project includes data preprocessing, exploratory data analysis (EDA),
+                            model evaluation, and an interactive Streamlit interface for real-time salary prediction.
+                        </p>
+
+                        <a href="https://github.com/Kriti0906/Salary-Prediction-System"
+                        class="project-link"
+                        target="_blank">
+                            View Project →
+                        </a>
+
+                    </div>
 
                 </div>
+
 
             </div>
 
         </div>
 
     </section>
+
 
     <!-- Contact -->
     <section class="contact" id="contact">
@@ -249,6 +356,7 @@
         </div>
 
     </section>
+
 
     <!-- Footer -->
     <footer>
